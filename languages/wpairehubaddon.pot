@@ -1,0 +1,367 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-02-20 19:36+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: rehub-wpai-addon.php:40
+msgid "Featured Image"
+msgstr ""
+
+#: rehub-wpai-addon.php:41
+msgid "Post thumbnail URL"
+msgstr ""
+
+#: rehub-wpai-addon.php:52
+msgid "REHub Post Layout"
+msgstr ""
+
+#: rehub-wpai-addon.php:54
+msgid "Simple"
+msgstr ""
+
+#: rehub-wpai-addon.php:55
+msgid "Title is outside content"
+msgstr ""
+
+#: rehub-wpai-addon.php:56
+msgid "Center aligned (Rething style)"
+msgstr ""
+
+#: rehub-wpai-addon.php:57
+msgid "Full width, optimized for reading"
+msgstr ""
+
+#: rehub-wpai-addon.php:58
+msgid "Compact (Recash style)"
+msgstr ""
+
+#: rehub-wpai-addon.php:59
+msgid "Compact (Redirect style)"
+msgstr ""
+
+#: rehub-wpai-addon.php:60
+msgid "Button in corner (Repick style)"
+msgstr ""
+
+#: rehub-wpai-addon.php:61
+msgid "Title Inside image"
+msgstr ""
+
+#: rehub-wpai-addon.php:62
+msgid "Title Inside full image"
+msgstr ""
+
+#: rehub-wpai-addon.php:63
+msgid "Big post offer block in top"
+msgstr ""
+
+#: rehub-wpai-addon.php:64
+msgid "Offer and review score"
+msgstr ""
+
+#: rehub-wpai-addon.php:68
+msgid "Price comparison CE (compact)"
+msgstr ""
+
+#: rehub-wpai-addon.php:69
+msgid "Price comparison CE (full width)"
+msgstr ""
+
+#: rehub-wpai-addon.php:70
+msgid "Auto content CE"
+msgstr ""
+
+#: rehub-wpai-addon.php:74 rehub-wpai-addon.php:102
+msgid "Choose one"
+msgstr ""
+
+#: rehub-wpai-addon.php:84
+msgid "REHub Product Layout"
+msgstr ""
+
+#: rehub-wpai-addon.php:86
+msgid "Global from Theme option - Shop"
+msgstr ""
+
+#: rehub-wpai-addon.php:87
+msgid "Default with sidebar"
+msgstr ""
+
+#: rehub-wpai-addon.php:88
+msgid "Default without sidebar"
+msgstr ""
+
+#: rehub-wpai-addon.php:89
+msgid "Full width Extended"
+msgstr ""
+
+#: rehub-wpai-addon.php:90
+msgid "Sections with sidebar"
+msgstr ""
+
+#: rehub-wpai-addon.php:91
+msgid "Compare prices"
+msgstr ""
+
+#: rehub-wpai-addon.php:92
+msgid "Full width Photo"
+msgstr ""
+
+#: rehub-wpai-addon.php:96
+msgid "Review with Blocks"
+msgstr ""
+
+#: rehub-wpai-addon.php:97
+msgid "Content Egg List"
+msgstr ""
+
+#: rehub-wpai-addon.php:98
+msgid "Content Egg Auto Sections"
+msgstr ""
+
+#: rehub-wpai-addon.php:112
+msgid "REHub Post Offer"
+msgstr ""
+
+#: rehub-wpai-addon.php:113
+msgid "Post Offer Name"
+msgstr ""
+
+#: rehub-wpai-addon.php:114
+msgid "Offer URL"
+msgstr ""
+
+#: rehub-wpai-addon.php:115
+msgid "Short description"
+msgstr ""
+
+#: rehub-wpai-addon.php:116
+msgid "Offer sale price"
+msgstr ""
+
+#: rehub-wpai-addon.php:116
+msgid ""
+"Insert sale price of offer (example, $55). Please, choose your price pattern "
+"in theme options - localizations"
+msgstr ""
+
+#: rehub-wpai-addon.php:117
+msgid "Offer old price"
+msgstr ""
+
+#: rehub-wpai-addon.php:118
+msgid "Product thumbnail URL"
+msgstr ""
+
+#: rehub-wpai-addon.php:118
+msgid "Upload thumbnail of product or leave blank to use post thumbnail"
+msgstr ""
+
+#: rehub-wpai-addon.php:119
+msgid "Button text"
+msgstr ""
+
+#: rehub-wpai-addon.php:119
+msgid ""
+"Insert text on button or leave blank to use default text. Use short names "
+"(not more than 14 symbols)"
+msgstr ""
+
+#: rehub-wpai-addon.php:122 rehub-wpai-addon.php:220
+msgid "Store logo URL"
+msgstr ""
+
+#: rehub-wpai-addon.php:126 rehub-wpai-addon.php:224
+msgid "Use remote logo URL"
+msgstr ""
+
+#: rehub-wpai-addon.php:130 rehub-wpai-addon.php:228
+msgid "Download logo from URL"
+msgstr ""
+
+#: rehub-wpai-addon.php:134 rehub-wpai-addon.php:232
+msgid ""
+"WPAI saves images by file name. This means that two different files with "
+"different links but the same file name will be saved only as one file. You "
+"can enable option to save direct external URLs on logo files in the first "
+"case or download file in the second one."
+msgstr ""
+
+#: rehub-wpai-addon.php:136 rehub-wpai-addon.php:234
+msgid "Store name"
+msgstr ""
+
+#: rehub-wpai-addon.php:136
+msgid ""
+"Assign the same name to Deal store in Taxonomy Tab (if this is available). "
+"Add only one deal store to each deal"
+msgstr ""
+
+#: rehub-wpai-addon.php:137
+msgid "Offer currency"
+msgstr ""
+
+#: rehub-wpai-addon.php:137
+msgid ""
+"Currency in ISO 4217. This is only for schema markup. Example: USD or EUR"
+msgstr ""
+
+#: rehub-wpai-addon.php:148
+msgid "REHub Post Coupon"
+msgstr ""
+
+#: rehub-wpai-addon.php:149
+msgid "Offer Coupon Code"
+msgstr ""
+
+#: rehub-wpai-addon.php:150 rehub-wpai-addon.php:203
+msgid "Coupon End Date. Must be in format yyyy-mm-dd"
+msgstr ""
+
+#: rehub-wpai-addon.php:150 rehub-wpai-addon.php:203
+msgid "Choose expiration date of coupon or leave blank"
+msgstr ""
+
+#: rehub-wpai-addon.php:151 rehub-wpai-addon.php:204
+msgid "Convert from British format:"
+msgstr ""
+
+#: rehub-wpai-addon.php:151 rehub-wpai-addon.php:152 rehub-wpai-addon.php:177
+#: rehub-wpai-addon.php:182 rehub-wpai-addon.php:204
+msgid "No"
+msgstr ""
+
+#: rehub-wpai-addon.php:151 rehub-wpai-addon.php:204
+msgid "From dd/mm/yyyy"
+msgstr ""
+
+#: rehub-wpai-addon.php:151 rehub-wpai-addon.php:204
+msgid "From dd/mm/yy"
+msgstr ""
+
+#: rehub-wpai-addon.php:152 rehub-wpai-addon.php:205
+msgid "Mask coupon code?"
+msgstr ""
+
+#: rehub-wpai-addon.php:152 rehub-wpai-addon.php:177 rehub-wpai-addon.php:182
+msgid "Yes"
+msgstr ""
+
+#: rehub-wpai-addon.php:152 rehub-wpai-addon.php:205
+msgid "If choose Yes, all coupon codes will be hidden"
+msgstr ""
+
+#: rehub-wpai-addon.php:163
+msgid "REHub Location field for GMW"
+msgstr ""
+
+#: rehub-wpai-addon.php:164
+msgid "Address field"
+msgstr ""
+
+#: rehub-wpai-addon.php:176
+msgid "REHub Post Review"
+msgstr ""
+
+#: rehub-wpai-addon.php:177
+msgid "Make post as review format? Choose yes if you want to fill fields below"
+msgstr ""
+
+#: rehub-wpai-addon.php:178
+msgid "Review Heading"
+msgstr ""
+
+#: rehub-wpai-addon.php:179
+msgid "Summary Text"
+msgstr ""
+
+#: rehub-wpai-addon.php:180
+msgid "PROS. Place each from separate line (optional)"
+msgstr ""
+
+#: rehub-wpai-addon.php:181
+msgid "CONS. Place each from separate line (optional)"
+msgstr ""
+
+#: rehub-wpai-addon.php:182
+msgid "Disable auto review box?"
+msgstr ""
+
+#: rehub-wpai-addon.php:182
+msgid ""
+"If choose Yes, review box will be hidden in post. You can insert it with "
+"shortcodes [review] or [wpsm_scorebox]"
+msgstr ""
+
+#: rehub-wpai-addon.php:183
+msgid "<b>Set overall score</b>"
+msgstr ""
+
+#: rehub-wpai-addon.php:183
+msgid ""
+"Enter overall score of review (e.g. 5.5) or leave blank to auto calculation "
+"based on criterias score"
+msgstr ""
+
+#: rehub-wpai-addon.php:184 rehub-wpai-addon.php:188
+#, php-format
+msgid "Criteria Name %d"
+msgstr ""
+
+#: rehub-wpai-addon.php:184
+msgid "Input name of a criteria or leave blank"
+msgstr ""
+
+#: rehub-wpai-addon.php:185 rehub-wpai-addon.php:189
+#, php-format
+msgid "Criteria Score %d"
+msgstr ""
+
+#: rehub-wpai-addon.php:185
+msgid "Range between 0 and 10 (with step 0.5)"
+msgstr ""
+
+#: rehub-wpai-addon.php:201
+msgid "REHub Product Coupon"
+msgstr ""
+
+#: rehub-wpai-addon.php:202
+msgid "Set coupon code"
+msgstr ""
+
+#: rehub-wpai-addon.php:217
+msgid "REHub Store Taxonomy"
+msgstr ""
+
+#: rehub-wpai-addon.php:234
+msgid ""
+"Assign the same name to Deal store in Taxonomy Tab. Add only one deal store "
+"to each deal"
+msgstr ""
+
+#. Name of the plugin
+msgid "WP All Import - REHub Add-On"
+msgstr ""
+
+#. Description of the plugin
+msgid "Import data to certain REHub Post / Product meta fields."
+msgstr ""
+
+#. Author of the plugin
+msgid "WPsoul.com"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://wpsoul.com/"
+msgstr ""
