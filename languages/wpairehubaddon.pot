@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-20 19:36+0000\n"
+"POT-Creation-Date: 2018-06-18 16:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -43,11 +43,11 @@ msgid "Full width, optimized for reading"
 msgstr ""
 
 #: rehub-wpai-addon.php:58
-msgid "Compact (Recash style)"
+msgid "Compact (Button Block Under Title)"
 msgstr ""
 
 #: rehub-wpai-addon.php:59
-msgid "Compact (Redirect style)"
+msgid "Compact (Button Block Before Title)"
 msgstr ""
 
 #: rehub-wpai-addon.php:60
@@ -71,15 +71,15 @@ msgid "Offer and review score"
 msgstr ""
 
 #: rehub-wpai-addon.php:68
-msgid "Price comparison CE (compact)"
+msgid "Price comparison (compact)"
 msgstr ""
 
 #: rehub-wpai-addon.php:69
-msgid "Price comparison CE (full width)"
+msgid "Price comparison (full width)"
 msgstr ""
 
 #: rehub-wpai-addon.php:70
-msgid "Auto content CE"
+msgid "Auto content Content Egg"
 msgstr ""
 
 #: rehub-wpai-addon.php:74 rehub-wpai-addon.php:102

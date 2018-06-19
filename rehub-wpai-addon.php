@@ -2,9 +2,9 @@
 /*
 Plugin Name: WP All Import - REHub Add-On
 Description: Import data to certain REHub Post / Product meta fields.
-Version: 2.0
+Version: 2.1
 Requires at least:    4.4.0
-Tested up to:         4.9.4
+Tested up to:         4.9.6
 WC requires at least: 3.0.0
 WC tested up to: 	 3.2.6
 Author: WPsoul.com
@@ -55,8 +55,8 @@ $rehub_wpai_postlayout = array(
 	'meta_outside' => __( "Title is outside content", "wpairehubaddon" ),
 	'meta_center' => __( "Center aligned (Rething style)", "wpairehubaddon" ),
 	'default_text_opt' => __( "Full width, optimized for reading", "wpairehubaddon" ),
-	'meta_compact' => __( "Compact (Recash style)", "wpairehubaddon" ),
-	'meta_compact_dir' => __( "Compact (Redirect style)", "wpairehubaddon" ),
+	'meta_compact' => __( "Compact (Button Block Under Title)", "wpairehubaddon" ),
+	'meta_compact_dir' => __( "Compact (Button Block Before Title)", "wpairehubaddon" ),
 	'corner_offer' => __( "Button in corner (Repick style)", "wpairehubaddon" ),
 	'meta_in_image' => __( "Title Inside image", "wpairehubaddon" ),
 	'meta_in_imagefull' => __( "Title Inside full image", "wpairehubaddon" ),
@@ -65,9 +65,9 @@ $rehub_wpai_postlayout = array(
 );
 if( is_plugin_active('content-egg/content-egg.php') ){
 	$rehub_wpai_postlayoutce = array(
-		'meta_ce_compare' => __( "Price comparison CE (compact)", "wpairehubaddon" ),
-		'meta_ce_compare_full' => __( "Price comparison CE (full width)", "wpairehubaddon" ),
-		'meta_ce_compare_auto_sec' => __( "Auto content CE", "wpairehubaddon" ),
+		'meta_ce_compare' => __( "Price comparison (compact)", "wpairehubaddon" ),
+		'meta_ce_compare_full' => __( "Price comparison (full width)", "wpairehubaddon" ),
+		'meta_ce_compare_auto_sec' => __( "Auto content Content Egg", "wpairehubaddon" ),
 	);
 	$rehub_wpai_postlayout = array_merge($rehub_wpai_postlayout, $rehub_wpai_postlayoutce);
 }
@@ -263,8 +263,10 @@ if ( !function_exists( 'rehub_wpai_featured_import' ) ) {
 if ( !function_exists( 'rehub_wpai_postlayout_import' ) ) {
 	function rehub_wpai_postlayout_import( $post_id, $data, $import_options ) {
 		global $rehub_wpai_post_layout;
+		$rehub_post_side_fields = array( 'read_more_custom', '_post_layout', 'post_size', 'show_featured_image', 'rehub_branded_banner_image_single', 'disable_parts', 'show_banner_ads' );
 		if( !empty( $data['rh_layout_post'] ) ) {
-			update_post_meta($post_id, '_layout_post', $data['rh_layout_post']);
+			update_post_meta($post_id, '_post_layout', $data['rh_layout_post']);
+			update_post_meta($post_id, 'rehub_post_side_fields', $rehub_post_side_fields);
 		}
 	}
 }
@@ -312,6 +314,11 @@ if ( !function_exists( 'rehub_wpai_offer_import' ) ) {
 		if ($rehub_wpai_offer->can_update_meta('rehub_offer_product_price_old', $import_options)) {
 			if (!empty($data['offer_product_price_old'])){
 				update_post_meta($post_id, 'rehub_offer_product_price_old', $data['offer_product_price_old']);
+			}			
+		}
+		if ($rehub_wpai_offer->can_update_meta('rehub_offer_btn_text', $import_options)) {
+			if (!empty($data['offer_btn_text'])){
+				update_post_meta($post_id, 'rehub_offer_btn_text', $data['offer_btn_text']);
 			}			
 		}
 		if ($rehub_wpai_offer->can_update_meta('rehub_main_product_currency', $import_options)) {
@@ -370,11 +377,6 @@ if ( !function_exists( 'rehub_wpai_coupon_import' ) ) {
 		if ($rehub_wpai_coupon->can_update_meta('rehub_offer_coupon_mask', $import_options)) {
 			if (!empty($data['offer_coupon_mask'])){
 				update_post_meta($post_id, 'rehub_offer_coupon_mask', $data['offer_coupon_mask']);
-			}			
-		}
-		if ($rehub_wpai_coupon->can_update_meta('rehub_offer_btn_text', $import_options)) {
-			if (!empty($data['offer_btn_text'])){
-				update_post_meta($post_id, 'rehub_offer_btn_text', $data['offer_btn_text']);
 			}			
 		}
 	}
